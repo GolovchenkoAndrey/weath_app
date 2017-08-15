@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,700');
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+	font-family: 'Dosis', sans-serif;
+	color: #fff;
+}
+
+
+
+#weather-app {
+	height: 100%;
+}
+
+
+.main-day {
+	
+
+	height: 80%;
+	background: radial-gradient(circle, #d5bad7, #9a5fa2);
+}
+
+.far {
+	height: 10%
+}
+
+.activ {
+	
+	opacity: .5;
+}
+
+
+.far img {
+	height: 6vh;
+	width: 6vh;
+	margin: 0 0.5rem;
+	cursor: pointer;
+}
+
+.timezone {
+	height: 20%;
+}
+
+.main-day-temperature {
+	height: 40%;
+}
+
+.second-info {
+	height: 30%;
+}
+
+
+
+
+.next-day {
+	display: flex;
+	height: 20%;
+	
+}
+
+
+.one-day, .two-day, .three-day, .four-day {
+	width: 25%;
+	
+}
+
+.one-day {
+	background-color: #cca8cc;
+}
+
+.two-day {
+	background-color: #c39ac4;
+}
+
+.three-day {
+	background-color: #b485b7;
+}
+
+.four-day {
+	background-color: #a974ad;
+}
+
+.main-day-temperature, .timezone, .far { 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+ }
+
+
+.main-day-temperature p {
+	
+	font-size: 15rem;
+	line-height: 15rem;
+	
+}
+
+.main-day-temperature .celsiy {
+	margin: 0 0 8rem 1rem;
+	font-size: 3rem;
+	line-height: 3rem;
+	
+}
+
+.timezone img {
+	margin-right: 2rem;
+	height: 12vh;
+	width: 12vh;
+}
+
+.timezone > div > p:first-child {
+
+	font-size: 1.3rem;
+	text-transform: uppercase;
+}
+
+.timezone > div > p:last-child {
+
+	font-size: 0.8rem;
+	text-transform: uppercase;
+}
+
+.next-day .day {
+	font-size: 1.2rem;
+}
+
+.srz > div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.one-day, .two-day, .three-day, .four-day, .second-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.next-day img {
+	margin: 0.4rem 0;
+	height: 4vh;
+	width: 4vh;
+}
+
+.temperature {
+	display: flex;
+}
+
+.temperature p:first-child {
+	font-size: 1.1rem;
+}
+
+.temperature p:last-child {
+	font-size: 0.7rem;
+}
+
+.second-info > span {
+	display: flex;
+	margin: 0 1rem;
+	font-size: 1rem;
+}
+
+.second-info > span > i {
+	margin: 0.1rem 0.5rem 0 0.2rem;
+}
+
+
+
+
+
+
+
+
